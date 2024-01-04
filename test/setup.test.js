@@ -6,6 +6,8 @@ afterAll(() => {
   console.info("After All");
 });
 
+test("test", () => console.info("Rungkadd"));
+
 beforeEach(() => {
   console.info("Before Each");
 });
